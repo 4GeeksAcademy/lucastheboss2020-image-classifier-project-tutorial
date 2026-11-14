@@ -1,0 +1,46 @@
+{
+  "test_images": 3754,
+  "accuracy": 0.9848161960575387,
+  "log_loss": 0.04190075770020485,
+  "roc_auc": 0.9988146896734947,
+  "confusion_matrix": [
+    [
+      1856,
+      20
+    ],
+    [
+      37,
+      1841
+    ]
+  ],
+  "classification_report": {
+    "cat": {
+      "precision": 0.9804543053354464,
+      "recall": 0.9893390191897654,
+      "f1-score": 0.9848766250994959,
+      "support": 1876.0
+    },
+    "dog": {
+      "precision": 0.9892530897367007,
+      "recall": 0.9802981895633652,
+      "f1-score": 0.9847552821610056,
+      "support": 1878.0
+    },
+    "accuracy": 0.9848161960575387,
+    "macro avg": {
+      "precision": 0.9848536975360735,
+      "recall": 0.9848186043765653,
+      "f1-score": 0.9848159536302508,
+      "support": 3754.0
+    },
+    "weighted avg": {
+      "precision": 0.9848560413784819,
+      "recall": 0.9848161960575387,
+      "f1-score": 0.9848159213066123,
+      "support": 3754.0
+    }
+  },
+  "selected_head": "regularized_head",
+  "selection_locked_before_test": true,
+  "threshold_policy": "Argmax of two softmax class probabilities; no test-set threshold tuning."
+}

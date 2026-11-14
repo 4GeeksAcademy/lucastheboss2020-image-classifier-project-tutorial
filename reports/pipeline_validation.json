@@ -1,0 +1,53 @@
+{
+  "decoded_images": 25000,
+  "splits": {
+    "train": {
+      "decoded_images": 17498,
+      "pixel_min": 0.0,
+      "pixel_max": 1.0,
+      "shape": [
+        200,
+        200,
+        3
+      ],
+      "class_counts": {
+        "0": 8750,
+        "1": 8748
+      }
+    },
+    "validation": {
+      "decoded_images": 3748,
+      "pixel_min": 0.0,
+      "pixel_max": 1.0,
+      "shape": [
+        200,
+        200,
+        3
+      ],
+      "class_counts": {
+        "0": 1874,
+        "1": 1874
+      }
+    },
+    "test": {
+      "decoded_images": 3754,
+      "pixel_min": 0.0,
+      "pixel_max": 1.0,
+      "shape": [
+        200,
+        200,
+        3
+      ],
+      "class_counts": {
+        "0": 1876,
+        "1": 1878
+      }
+    }
+  },
+  "path_overlap": 0,
+  "content_hash_overlap": 0,
+  "validation_deterministic": true,
+  "augmentation_changes_training_input": true,
+  "augmentation_disabled_for_inference": true,
+  "model_evaluated_on_test": false
+}

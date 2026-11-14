@@ -1,0 +1,24 @@
+{
+  "backbone": "mobilenet_v2",
+  "pretraining": "ImageNet",
+  "frozen_backbone": true,
+  "selected_head": "regularized_head",
+  "model_path": "models/final_classifier.keras",
+  "input_shape": [
+    200,
+    200,
+    3
+  ],
+  "input_range": [
+    0,
+    1
+  ],
+  "class_names": [
+    "cat",
+    "dog"
+  ],
+  "parameters": 2422210,
+  "bytes": 10287848,
+  "sha256": "2f310e22615a3d39b30f73ca7f601348781fec06e57b038be730840e0d22bd63",
+  "reload_prediction_equivalence_passed": true
+}

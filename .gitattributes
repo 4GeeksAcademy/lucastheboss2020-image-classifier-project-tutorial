@@ -1,0 +1,4 @@
+
+# Normalize generated tabular/text reports in Git
+*.csv text eol=lf
+*.txt text eol=lf

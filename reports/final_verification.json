@@ -1,0 +1,39 @@
+{
+  "all_checks_passed": true,
+  "test_accuracy_recomputed_from_csv": 0.9848161960575387,
+  "test_rows": 3754,
+  "confusion_matrix_recomputed": [
+    [
+      1856,
+      20
+    ],
+    [
+      37,
+      1841
+    ]
+  ],
+  "selection_used_validation_only": true,
+  "all_training_images_used": true,
+  "model_checksum_verified": true,
+  "model_reload_prediction_equivalence_passed": true,
+  "prediction_cli_smoke_passed": true,
+  "notebooks": {
+    "src/explore.ipynb": {
+      "executed_code_cells": 9,
+      "error_outputs": 0
+    },
+    "src/01_environment_and_data.ipynb": {
+      "executed_code_cells": 5,
+      "error_outputs": 0
+    },
+    "src/02_preprocessing_and_initial_training.ipynb": {
+      "executed_code_cells": 6,
+      "error_outputs": 0
+    }
+  },
+  "raw_data_environment_caches_and_intermediate_models_ignored": true,
+  "final_model_included_in_delivery": true,
+  "dependency_check_passed": true,
+  "python_sources_compile": true,
+  "whitespace_check_passed": true
+}

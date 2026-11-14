@@ -1,0 +1,45 @@
+{
+  "selection_rule": "Lowest full-validation-set log loss; test labels and metrics not used for selection.",
+  "trials": [
+    {
+      "name": "linear_head",
+      "units": 0,
+      "dropout": 0.0,
+      "lr": 0.001,
+      "epochs_completed": 7,
+      "best_epoch": 3,
+      "validation_log_loss": 0.03935033082962036,
+      "validation_accuracy": 0.986392742796158,
+      "parameters": 2562,
+      "elapsed_seconds": 3.66,
+      "checkpoint": "models/linear_head.keras"
+    },
+    {
+      "name": "regularized_head",
+      "units": 128,
+      "dropout": 0.35,
+      "lr": 0.0003,
+      "epochs_completed": 13,
+      "best_epoch": 9,
+      "validation_log_loss": 0.03679950162768364,
+      "validation_accuracy": 0.9874599786552828,
+      "parameters": 164226,
+      "elapsed_seconds": 10.38,
+      "checkpoint": "models/regularized_head.keras"
+    }
+  ],
+  "selected": {
+    "name": "regularized_head",
+    "units": 128,
+    "dropout": 0.35,
+    "lr": 0.0003,
+    "epochs_completed": 13,
+    "best_epoch": 9,
+    "validation_log_loss": 0.03679950162768364,
+    "validation_accuracy": 0.9874599786552828,
+    "parameters": 164226,
+    "elapsed_seconds": 10.38,
+    "checkpoint": "models/regularized_head.keras"
+  },
+  "test_evaluated_during_selection": false
+}

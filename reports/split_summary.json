@@ -1,0 +1,44 @@
+{
+  "seed": 42,
+  "requested_ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "label_mapping": {
+    "cat": 0,
+    "dog": 1
+  },
+  "total_images": 25000,
+  "unique_content_hashes": 24994,
+  "duplicate_images": 6,
+  "excluded_unreadable_images": 0,
+  "path_overlap": 0,
+  "content_hash_overlap": 0,
+  "manifest": "data/processed/split_manifest.csv",
+  "manifest_sha256": "7b37b1eabab9656b3a1a8624aab4c12e64c1bc84791558ba358802c95742235d",
+  "splits": {
+    "train": {
+      "count": 17498,
+      "class_counts": {
+        "cat": 8750,
+        "dog": 8748
+      }
+    },
+    "validation": {
+      "count": 3748,
+      "class_counts": {
+        "cat": 1874,
+        "dog": 1874
+      }
+    },
+    "test": {
+      "count": 3754,
+      "class_counts": {
+        "cat": 1876,
+        "dog": 1878
+      }
+    }
+  },
+  "notes": "Exact duplicate content is kept in one split. Images are not copied. Ratios may differ slightly when duplicate groups have multiple members. The test split is reserved for final evaluation and is not used for fitting or model selection."
+}

@@ -1,0 +1,12 @@
+{
+  "backbone": "mobilenet_v2",
+  "elapsed_seconds": 628.52,
+  "selected_head": "regularized_head",
+  "test_accuracy": 0.9848161960575387,
+  "training_unique_images": 17498,
+  "training_augmented_views": 4375,
+  "validation_images": 3748,
+  "test_images": 3754,
+  "model_reload_passed": true,
+  "model_sha256": "2f310e22615a3d39b30f73ca7f601348781fec06e57b038be730840e0d22bd63"
+}

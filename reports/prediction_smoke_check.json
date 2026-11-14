@@ -1,0 +1,8 @@
+{
+  "predicted_class": "cat",
+  "confidence": 0.9994522929191589,
+  "probabilities": {
+    "cat": 0.9994522929191589,
+    "dog": 0.0005476478254422545
+  }
+}

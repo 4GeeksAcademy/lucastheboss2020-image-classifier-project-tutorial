@@ -1,0 +1,35 @@
+{
+  "backbone": "mobilenet_v2",
+  "train": {
+    "backbone": "mobilenet_v2",
+    "weights": "imagenet",
+    "split": "train",
+    "original_images": 17498,
+    "augmented_views": 4375,
+    "rows": 21873,
+    "dimensions": 1280,
+    "manifest_sha256": "7b37b1eabab9656b3a1a8624aab4c12e64c1bc84791558ba358802c95742235d",
+    "input_size": [
+      200,
+      200
+    ],
+    "seed": 42
+  },
+  "validation": {
+    "backbone": "mobilenet_v2",
+    "weights": "imagenet",
+    "split": "validation",
+    "original_images": 3748,
+    "augmented_views": 0,
+    "rows": 3748,
+    "dimensions": 1280,
+    "manifest_sha256": "7b37b1eabab9656b3a1a8624aab4c12e64c1bc84791558ba358802c95742235d",
+    "input_size": [
+      200,
+      200
+    ],
+    "seed": 42
+  },
+  "augmentation_policy": "One seeded augmented view for every fourth training manifest record; no validation/test augmentation. Both head trials use exactly the same training views.",
+  "test_features_accessed_before_selection": false
+}

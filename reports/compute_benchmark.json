@@ -1,0 +1,14 @@
+{
+  "vgg16": {
+    "seconds_per_image": 0.3473189519375026,
+    "estimated_train_validation_feature_minutes": 122.98564088106967,
+    "parameters": 14714688,
+    "feature_dimension": 512
+  },
+  "mobilenet_v2": {
+    "seconds_per_image": 0.041752139749995365,
+    "estimated_train_validation_feature_minutes": 14.784432685473359,
+    "parameters": 2257984,
+    "feature_dimension": 1280
+  }
+}
